@@ -97,7 +97,10 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 python manage.py runserver
-
-
+```
+Author :
+Prince Parmar Singh
+📧 psingh80436@gmail.com
+🔗 github.com/Pr1ncePS2002
 
 
