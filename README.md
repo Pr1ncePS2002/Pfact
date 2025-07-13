@@ -77,3 +77,27 @@ Includes:
 ```bash
 git clone https://github.com/Pr1ncePS2002/Pfact.git
 cd Pfact
+```
+
+### 2. Create the virtual environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
+
+### 3. Apply Migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+###4. Create a super user and run the server
+
+```bash
+python manage.py createsuperuser
+python manage.py runserver
+
+
+
+
